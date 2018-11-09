@@ -1,0 +1,34 @@
+.o-intro {
+	max-width: 980px;
+	margin: 50px auto;
+	color: #fff;
+
+	a {
+		color: inherit;
+	}
+
+	&__content {
+		margin-top: 48px;
+	}
+
+	&__text {
+		&--bold {
+			color: #ffff00;
+			font-weight: 600;
+			font-size: 20px;
+		}
+	}
+
+	&__image {
+		margin: 0 auto;
+		width: 80%;
+
+		@media (min-width: $breakpoint-medium) {
+			width: 50%;
+		}
+
+		@media (min-width: $breakpoint-large) {
+			width: 40%;
+		}
+	}
+}

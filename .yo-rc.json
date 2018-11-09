@@ -1,0 +1,20 @@
+{
+  "generator-nitro": {
+    "promptValues": {
+      "pre": "scss",
+      "viewExt": "hbs",
+      "clientTpl": false,
+      "exampleCode": false,
+      "exporter": true,
+      "release": false
+    },
+    "name": "artisst",
+    "preprocessor": "scss",
+    "jscompiler": "JavaScript",
+    "viewExtension": "hbs",
+    "clientTemplates": false,
+    "exampleCode": false,
+    "exporter": true,
+    "release": false
+  }
+}

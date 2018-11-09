@@ -1,0 +1,19 @@
+.m-image {
+	position: relative;
+	height: inherit;
+	display: block;
+
+	img {
+		max-width: 100%;
+		width: 100%;
+		height: inherit;
+		object-position: center right;
+		object-fit: cover;
+
+		&[data-sizes="auto"] {
+			display: block;
+			width: 100%;
+		}
+	}
+}
+

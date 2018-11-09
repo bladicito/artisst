@@ -1,0 +1,18 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "image",
+	"description": "A image molecule",
+	"type": "object",
+	"properties": {
+		"modifier": {
+			"description": "A modifier",
+			"type": "array"
+		},
+		"decorator": {
+			"description": "A decorator",
+			"type": "string"
+		}
+	},
+	"required": ["modifier"],
+	"dependencies": {}
+}
