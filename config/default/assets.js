@@ -5,6 +5,8 @@ const config = {
 		'app.css': [
 			'+assets/css/000_variables.scss',
 			'assets/css/basic.scss',
+			'+assets/css/00_variables-colors.scss',
+			'assets/css/001_slick.scss',
 			'patterns/**/css/*.scss',
 			'patterns/**/css/modifier/*.scss',
 		],

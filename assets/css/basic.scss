@@ -1,4 +1,36 @@
 body {
 	font-family: Arial, sans-serif;
 	background-color: #3f464e;
+	margin: 0;
+	padding: 0;
+}
+
+.cont {
+	position: relative;
+
+	&__logo {
+		position: absolute;
+		left: 20px;
+		width: 150px;
+		top: 20px;
+	}
+
+	&__text {
+		text-align: right;
+		position: absolute;
+		right: 20px;
+		width: 100%;
+		bottom: 20px;
+		color: #ffffff;
+
+		a {
+			color: inherit;
+		}
+
+		@media (min-width: $breakpoint-medium) {
+			width:  350px;
+			bottom: auto;
+			top: 20px;
+		}
+	}
 }
