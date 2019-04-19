@@ -1,0 +1,36 @@
+{
+	"items": [
+		{
+			"text": "<span class=\"artisst\">artisst</span>",
+			"href": "/"
+		},
+		{
+			"text": "Foodtruck",
+			"href": "/food-truck"
+		},
+		{
+			"text": "Private Chef-Catering",
+			"href": "/private-chef-catering"
+		},
+		{
+			"text": "Kochkurs",
+			"href": "/kochkurs"
+		},
+		{
+			"text": "Events",
+			"href": "/events"
+		},
+		{
+			"text": "Machers",
+			"href": "/machers"
+		},
+		{
+			"text": "Kontakt",
+			"href": "/kontakt"
+		},
+		{
+			"text": "Partners",
+			"href": "/partners"
+		}
+	]
+}

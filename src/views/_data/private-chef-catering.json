@@ -1,0 +1,68 @@
+{
+	"pageTitle": "Artisst",
+	"mainTitle": {
+		"tag": "h1",
+		"text": "Private Chef - Catering <span class=\"artisst\">artisst</span>"
+	},
+	"grid": {
+		"modifier": [],
+		"items": [
+			{
+				"gridClasses": ["lg-4", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": ""
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-8", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": "Lassen Sie sich bei Ihnen zu Hause oder an dem Ort Ihrer Wahl verwöhnen. Wir kochen für private Anlässe und für Events jeglicher Art. Haben Sie einen gemütlichen Abend mit Gästen geplant, ein Geschäftsessen oder eine Hochzeit? Wir sind für Sie da! Damit wir ortsunabhängig kochen können und nicht auf die lokale Infrastruktur angewiesen sind, besitzt artisst einen eigenen <a href=\"/food-truck\">Foodtruck</a>, den Freightliner MT-45. Die Anzahl Personen ist nicht entscheidend. Wir bekochen für Sie gerne kleine sowie grosse Gruppen und verwandeln Ihren Anlass in ein kulinarisches Erlebnis. click <a href=\"mailto:eat@artisst.ch\">here</a> or contact us at <a href=\"mailto:eat@artisst.ch\">eat@artisst.ch</a>"
+					}
+				}
+			},
+
+			{
+				"gridClasses": ["lg-12", "md-12", "sm-12"],
+				"pattern": {
+					"name": "subtitle",
+					"data": {
+						"modifier": [],
+						"text": "<span>Konzept</span> private cooking/catering"
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": "Ihr Konzept private cooking/ catering beinhaltet sowohl das Kochen in den Privatküchen ihrer Kundschaft, als auch ein perfekt ausgestatteter Food Truck für Caterings und Events<br/><strong>Criterion Magazin</strong>"
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/kochkurs.jpg"
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}

@@ -1,0 +1,11 @@
+{
+	"modifier": [],
+	"decorator": "",
+	"srcset": {
+		"fallback": {
+			"x1": "assets/img/artisst.png",
+			"x2": "assets/img/artisst.png"
+		}
+	},
+	"alt": "Artisst Private Cooking & Catering"
+}

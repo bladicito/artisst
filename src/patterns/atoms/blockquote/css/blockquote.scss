@@ -1,0 +1,35 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+.a-blockquote {
+	@include copy-size-1();
+
+	&__content {
+		padding-bottom: 14px;
+		border-bottom: 1px solid $color-gray-border2;
+	}
+	&__text {
+		color: inherit;
+		font-size: inherit;
+		quotes: "\201C""\201D""\2018""\2019";
+		display: inline;
+
+		&:before {
+			color: $color-tc-red;
+			content: open-quote;
+		}
+
+		&:after {
+			color: $color-tc-red;
+			content: close-quote;
+		}
+	}
+
+	&__source {
+		@include copy-size-2();
+		margin-top: 10px;
+		text-align: right;
+
+	}
+}

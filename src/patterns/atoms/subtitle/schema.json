@@ -1,0 +1,9 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "subtitle",
+	"description": "A subtitle atom",
+	"type": "object",
+	"properties": {},
+	"required": ["text"],
+	"dependencies": {}
+}

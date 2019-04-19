@@ -1,0 +1,68 @@
+{
+	"pageTitle": "Artisst",
+	"mainTitle": {
+		"tag": "h1",
+		"text": "Kochkurs <span class=\"artisst\">artisst</span>"
+	},
+	"grid": {
+		"modifier": [],
+		"items": [
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": "Sie möchten einen gemütlichen Abend mit Ihren Gästen verbringen und sie mit einem selbstgekochten Menü verwöhnen? Sie stellen dann aber fest, dass Ihnen durch das Kochen nicht viel Zeit für Ihre Gäste bleibt? In unserem Kochkurs zeigen wir Ihnen, wie Ihnen beides gelingt. Wir stellen neue Rezepte und Techniken "
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": ""
+					}
+				}
+			},
+
+			{
+				"gridClasses": ["lg-12", "md-12", "sm-12"],
+				"pattern": {
+					"name": "subtitle",
+					"data": {
+						"modifier": [],
+						"text": "<span>Events</span>"
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "paragraph",
+					"data": {
+						"modifier": [],
+						"text": "Bleiben Sie auf dem Laufenden, wir aktualisieren unsere Events regelmässig. Wenn Sie mit uns Ihren nächsten Event planen möchten, freuen wir uns sehr über Ihre <a href=\"mailto:info@artisst.ch\">Kontaktaufnahme</a>."
+					}
+				}
+			},
+			{
+				"gridClasses": ["lg-6", "md-12", "sm-12"],
+				"pattern": {
+					"name": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/events.jpg"
+							}
+						}
+					}
+				}
+			}
+		]
+	}
+}

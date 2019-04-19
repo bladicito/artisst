@@ -6,16 +6,12 @@
  */
 
 const extend = require('extend');
-const baseConfig = require('../app/core/config');
+const baseConfig = require('@nitro/app/app/core/config');
 const defaultConfig = {
-	assets: require('./default/assets'),
 	code: {
-		compatibility: {
-			browserslist: ['> 1%', 'last 2 versions', 'ie 9', 'android 4', 'Firefox ESR', 'Opera 12.1'],
-		},
 		validation: {
 			eslint: {
-				live: true,
+				live: false,
 			},
 			htmllint: {
 				live: true,
@@ -26,15 +22,16 @@ const defaultConfig = {
 				logMissingSchemaAsWarning: true,
 			},
 			stylelint: {
-				live: true,
+				live: false,
 			},
 		},
 	},
 	nitro: {
+		viewFileExtension: 'hbs',
+		templateEngine: 'hbs',
 		patterns: require('./default/patterns'),
 		mode: {
 			livereload: true,
-			minified: false,
 			offline: false,
 		},
 		watch: {
@@ -48,6 +45,14 @@ const defaultConfig = {
 	server: {
 		port: 8080,
 		proxy: 8081,
+	},
+	gulp: require('./default/gulp'),
+	feature: {
+		i18next: {
+			middlewareOptions: {
+				ignoreRoutes: ['api/', 'assets/', 'dist/', 'content/'],
+			},
+		},
 	},
 	exporter: require('./default/exporter'),
 };

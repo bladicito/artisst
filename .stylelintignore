@@ -1,4 +1,2 @@
-assets/css/**/reset.css
-assets/css/**/variables.*
-assets/css/**/mixins.*
 node_modules/
+src/shared/base/reset/css/yui/reset.css

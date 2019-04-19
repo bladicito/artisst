@@ -1,0 +1,15 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+.a-subtitle {
+	@include title-size-2();
+	color: $color-tc-gray-mid;
+
+	padding-bottom: 8px;
+	border-bottom: 1px solid $color-gray-sport-line;
+
+	span {
+		font-weight: 600;
+	}
+}

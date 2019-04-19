@@ -1,0 +1,11 @@
+.m-grid {
+	margin: 0 auto;
+
+	&__container {
+		align-items: center;
+	}
+
+	&__col {
+		margin-bottom: 48px;
+	}
+}

@@ -1,0 +1,11 @@
+<nav class="m-menu{{#each modifier}} m-menu--{{this}}{{/each}}" data-t-name="Menu"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
+	<ul class="m-menu__holder">
+		{{#each items}}
+			<li class="m-menu__item">
+				<a href="{{href}}">
+					{{{text}}}
+				</a>
+			</li>
+		{{/each}}
+	</ul>
+</nav>

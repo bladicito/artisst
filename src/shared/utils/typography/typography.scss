@@ -1,0 +1,92 @@
+@import '../breakpoints/breakpoints';
+@import '../00_variables-colors';
+
+$font-family-fallback: Helvetica, Arial, sans-serif;
+$font-family-default: "Neue Helvetica W05", $font-family-fallback;
+$font-family-artisst: "Century Gothic W01", $font-family-fallback;
+
+$font-size-1: 25px;
+$font-size-5: 20px;
+$font-size-2: 28px;
+$font-size-3: 29px;
+$font-size-6: 30px;
+$font-size-4: 36px;
+
+@mixin font-size($size, $line-height) {
+	font-size: $size;
+	line-height: $line-height;
+}
+
+@mixin title-size-1() {
+	font-family: $font-family-default;
+	font-weight: 100;
+	letter-spacing: 3px;
+	@include font-size($font-size-3, 1.2);
+
+	@media (min-width: $breakpoint-medium) {
+		@include font-size($font-size-4, 1.2);
+	}
+}
+
+@mixin title-size-2() {
+	font-family: $font-family-default;
+	@include font-size($font-size-1, 1.2);
+
+	@media (min-width: $breakpoint-medium) {
+		@include font-size($font-size-2, 1.2);
+	}
+}
+
+@mixin title-size-3() {
+
+}
+
+@mixin copy-size-1() {
+	font-family: $font-family-default;
+	letter-spacing: 1px;
+	@include font-size($font-size-5, 1.3);
+
+	@media (min-width: $breakpoint-medium) {
+		@include font-size($font-size-1, 1.4);
+	}
+}
+@mixin copy-size-2() {
+	font-family: $font-family-default;
+	letter-spacing: 1px;
+	font-style: italic;
+	@include font-size($font-size-1, 1.2);
+
+	@media (min-width: $breakpoint-medium) {
+		@include font-size($font-size-6, 1.2);
+	}
+}
+
+@mixin copy-size-3() {
+
+}
+
+@mixin artisst-text() {
+	font-family: $font-family-artisst;
+	font-weight: 600;
+	letter-spacing: 7px;
+}
+
+h1 {
+	@include title-size-1();
+}
+
+p {
+	@include copy-size-1();
+}
+
+a {
+	@include copy-size-1();
+	font-weight: 400;
+	color: $color-black;
+
+	&:hover {
+		color: $color-gray-border2;
+	}
+
+}
+

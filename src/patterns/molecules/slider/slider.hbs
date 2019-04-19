@@ -1,0 +1,28 @@
+<div class="m-slider{{#each modifier}} m-slider--{{this}}{{/each}}" data-t-name="Slider"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
+	{{#if header}}
+		<div class="m-slider__header">
+			<div class="m-slider__action m-slider__action--left">
+				<div class="m-slider__arrow m-slider__arrow--left js-m-slider__arrow--left">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 375 668" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs></defs><g><path class="fil0" d="M12 304l292 -292c17,-16 43,-16 59,0 16,16 16,42 0,59l-263 263 263 263c16,16 16,43 0,59 -16,16 -42,16 -59,0l-292 -293c-16,-16 -16,-42 0,-59z"></path></g></svg>
+				</div>
+			</div>
+			{{#if counter}}<div class="m-slider__counter js-m-slider__counter"></div>{{/if}}
+			<div class="m-slider__name js-m-slider__name">{{{title}}}</div>
+			<div class="m-slider__action m-slider__action--right">
+				<div class="m-slider__arrow m-slider__arrow--right js-m-slider__arrow--right">
+					<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" version="1.1" style="shape-rendering:geometricPrecision;text-rendering:geometricPrecision;image-rendering:optimizeQuality;" viewBox="0 0 375 668" x="0px" y="0px" fill-rule="evenodd" clip-rule="evenodd"><defs>
+				</defs><g><path class="fil0" d="M363 304l-292 -292c-17,-16 -43,-16 -59,0 -16,16 -16,42 0,59l263 263 -263 263c-16,16 -16,43 0,59 16,16 42,16 59,0l292 -293c16,-16 16,-42 0,-59z"></path></g></svg>
+				</div>
+			</div>
+		</div>
+	{{/if}}
+	<div class="m-slider__content">
+		<div class="m-slider__reel js-m-slider__reel">
+			{{#each items}}
+				<div class="m-slider__single-item">
+					{{pattern name=this.patternname data=this.data}}
+				</div>
+			{{/each}}
+		</div>
+	</div>
+</div>

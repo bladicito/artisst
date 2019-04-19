@@ -1,0 +1,30 @@
+{
+	"modifier": ["full-width"],
+	"items": [
+		{
+			"gridClasses": ["lg-6", "md-12", "sm-12"],
+			"pattern": {
+				"name": "image",
+				"data": {
+					"modifier": [],
+					"srcset": {
+						"fallback": {
+							"x1": "assets/img/ceviche.jpg"
+						}
+					},
+					"alt": "Artisst Private Cooking & Catering"
+				}
+			}
+		},
+		{
+			"gridClasses": ["lg-6", "md-12", "sm-12"],
+			"pattern": {
+				"name": "paragraph",
+				"data": {
+					"modifier": [],
+					"text": "«artisst ist das Resultat unserer Passion für die nordisch inspirierte Küche. Wir kochen mitnatürlichen, unveränderten Zutaten, bei denennicht die Optik, sondern der Geschmack an erster Stelle steht.<br/>Unsere Gerichte werden mit regionalen Produkten zubereitet, wobei wir diese möglichst komplett verwenden. So wird der Abfall auf ein Minimum reduziert.»<br/> - Quentin und John –"
+				}
+			}
+		}
+	]
+}

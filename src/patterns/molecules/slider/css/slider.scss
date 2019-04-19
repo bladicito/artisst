@@ -1,0 +1,149 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/002_slick';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+
+.m-slider {
+	position: relative;
+	padding: 0 10px;
+
+	&__content {}
+
+	&__header {
+		display: flex;
+		border-bottom: 1px solid $color-gray-border2;
+		margin-bottom: 14px;
+		justify-content: space-between;
+		padding: 10px 0;
+		color: $color-gray-border2;
+	}
+
+	&__name {
+		font-size: 14px;
+		font-weight: 600;
+		text-transform: uppercase;
+		color: inherit;
+
+		span {
+			text-transform: none;
+		}
+	}
+
+	&__counter {
+		color: inherit;
+		font-size: 14px;
+	}
+
+	@media (min-width: $breakpoint-medium) {
+		padding: 0;
+	}
+
+	&__reel {
+		width: 80%;
+		overflow-x: auto;
+		overflow-y: hidden;
+		white-space: nowrap;
+	}
+
+	&__single-item {
+		display: inline-block;
+		width: 100%;
+		overflow: hidden;
+		vertical-align: top;
+	}
+
+	&__action {
+		font-size: 30px;
+		position: relative;
+	}
+
+	&__arrow {
+		padding: 5px;
+		background-color: rgba($color-tc-red, 0.8);
+		width: 25px;
+		height: 25px;
+		border-radius: 50%;
+		cursor: pointer;
+		z-index: 5;
+		position: relative;
+
+		&:hover {
+			background-color: rgba($color-tc-red, 1);
+		}
+
+		svg {
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			fill: $color-white;
+			width: 25%;
+			transform: translate(-50%, -50%);
+		}
+	}
+
+	&__dots {
+		position: relative;
+		bottom: 0;
+		list-style: none;
+		display: flex;
+		flex-wrap: wrap;
+		text-align: center;
+		align-items: center;
+		justify-content: center;
+		padding: 0;
+		margin: 24px 0 0 0;
+		width: 100%;
+		background-color: transparent;
+
+		li {
+			position: relative;
+			display: block;
+			height: 20px;
+			width: 20px;
+			padding: 0;
+			cursor: pointer;
+			button {
+				border: 0;
+				background: transparent;
+				display: block;
+				height: 20px;
+				width: 20px;
+				outline: none;
+				line-height: 0;
+				font-size: 0;
+				color: transparent;
+				padding: 5px;
+				cursor: pointer;
+
+				&:hover, &:focus {
+					outline: none;
+
+					&:before {
+						opacity: 0.8;
+					}
+				}
+
+				&:before {
+					position: absolute;
+					top: 0;
+					left: 0;
+					content: "*";
+					width: 20px;
+					height: 20px;
+					font-size: 40px;
+					line-height: 20px;
+					text-align: center;
+					color: $color-gray-border2;
+					opacity: 0.5;
+					-webkit-font-smoothing: antialiased;
+					-moz-osx-font-smoothing: grayscale;
+				}
+			}
+			&.slick-active button:before {
+				color: $color-tc-red;
+				opacity: 1;
+			}
+		}
+	}
+}

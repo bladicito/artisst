@@ -1,0 +1,13 @@
+@import '../../../../../shared/utils/00_variables-colors';
+
+.m-grid--full-width {
+	background-color: $color-gray-border2;
+
+	.m-grid {
+		&__container {
+			padding: 24px;
+			margin-right: 0;
+			margin-left: 0;
+		}
+	}
+}

@@ -1,0 +1,11 @@
+@import '../../../utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+
+body {
+	font-family:'Neue Helvetica W05';
+	font-weight: 300;
+	font-size: 16px;
+}
+span.artisst {
+	@include artisst-text();
+}

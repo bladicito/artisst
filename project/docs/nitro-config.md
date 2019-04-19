@@ -5,77 +5,10 @@ Starting with version 2, nitro uses [config](https://www.npmjs.com/package/confi
 This lets you extend the nitro default parameters for different environments (local, development, production, ...).  
 The configuration is placed in the [`/config`](../../config) directory. Read more about [configuration files](https://github.com/lorenwest/node-config/wiki/Configuration-Files)
 
-For your own functionality you can add new nodes as you like. It is certainly useful not to use the four main nodes from nitro: `assets`, `code`, `nitro` & `server`.
-
-## Assets Configuration
-
-You can configure the include order of your assets by defining patterns in `config/default/assets.js`.
-
-```js
-const config = {
-   assets: {
-        'app.css': [
-            '!assets/css/somefile.*',
-            'assets/css/cssreset.css',
-            'assets/css/*.*',
-            'patterns/**/css/*.*',
-            'patterns/**/css/modifier/*.*',
-        ],
-        'app.js': [
-            '!assets/js/somefile.js',
-            'assets/vendor/jquery/dist/jquery.min.js',
-            'assets/vendor/terrific/dist/terrific.min.js',
-            'assets/js/*.js',
-            'patterns/**/js/*.js',
-            'patterns/**/js/decorator/*.js',
-        ],
-   },
-};
-```
-
-### Pattern
-
-The matching patterns follow the standard node glob patterns.  
-Glob patterns are similar to regular expression but simplified. They are used by several shells.  
-You should always try to keep the patterns simple. Usually you only need the asterisks `*` `**` and the exclamation mark `!` for negation.
-
-You can read more on the standard [node glob patterns](https://github.com/isaacs/node-glob#glob-primer).
-
-### Special Pattern Prefixes
-
-* You can negate a pattern by starting with an exclamation mark `!`.
-  `!` = exclude pattern
-* Define all your dependencies for the compiling-process with the `+` prefix
-  `+` = exclude file but prepend it to every compile call for files with the same file extension.
-
-The order of these special patterns does not matter.
-
-### Examples
-
-* `"!patterns/*/test*"`         Exclude all patterns starting with `test`
-* `"!**/*-test.*"`              Exclude all filenames ending with `-test`.
-* `"+assets/css/mixins.less"`   Exclude `assets/css/mixins.less` but prepend to every compile call of every .less file
-
-### Other asset files
-
-You can configure as many different assets as you wish.
-
-```
-    'brand.css': [
-        'assets/css/reset.css',
-        ...
-```
+For your own functionality you can add new nodes as you like. It is certainly useful not to use
+the main nodes from nitro: `code`, `nitro`,`server`, `gulp`, `feature` & `exporter`.
 
 ## Code
-
-### Compatibility
-
-#### `code.compatibility.browserslist`
-
-* Type: Array
-* Default: `['> 1%', 'last 2 versions', 'ie 9', 'android 4', 'Firefox ESR', 'Opera 12.1']`
-
-Array of [browserslist](https://github.com/ai/browserslist) strings for tools like autoprefixer.
 
 ### Validation
 
@@ -83,7 +16,7 @@ Array of [browserslist](https://github.com/ai/browserslist) strings for tools li
 
 Type: Object
 
-* `code.validation.eslint.live` - default: true
+* `code.validation.eslint.live` - default: false
 
 Enable/disable JavaScript linting on change.
 
@@ -108,13 +41,20 @@ Type: Object
 
 Type: Object
 
-* `code.validation.stylelint.live` - default: true
+* `code.validation.stylelint.live` - default: false
 
 Enable/disable CSS linting on change.
 
 ## Nitro
 
 The node `nitro` contains following properties
+
+### Simple Properties
+
+* `nitro.viewFileExtension`: String (default: 'hbs') - possible values: 'hbs' or 'twig'
+  Extension of all view files (pattern & views) 
+* `nitro.templateEngine`: String (default: 'hbs') - possible values: 'hbs' or 'twig'
+  Currently used serverside rendering engine
 
 ### Patterns
 
@@ -125,7 +65,7 @@ Type: Object
 Configuration of pattern types. These types are used for:
 
 * handlebars pattern helper (`{{pattern name='pattern'}}`) to evaluate the pathes
-* pattern generator `yo nitro:pattern`
+* pattern generator `npm run nitro:pattern`
 
 A type contains following properties:
 
@@ -139,17 +79,17 @@ const config = {
 		patterns: {
 			atom: {
 				template: 'project/blueprints/pattern',
-				path: 'patterns/atoms',
+				path: 'src/patterns/atoms',
 				patternPrefix: 'a',
 			},
 			molecule: {
 				template: 'project/blueprints/pattern',
-				path: 'patterns/molecules',
+				path: 'src/patterns/molecules',
 				patternPrefix: 'm',
 			},
 			organism: {
 				template: 'project/blueprints/pattern',
-				path: 'patterns/organisms',
+				path: 'src/patterns/organisms',
 				patternPrefix: 'o',
 			},
 		},
@@ -161,33 +101,25 @@ const config = {
 
 #### `nitro.mode.livereload`
 
-Type: Boolean  
-Default: true
+* Type: Boolean  
+* Default: true
 
 Browser livereload on changes (develop mode only)
 
-#### `nitro.mode.minified`
-
-Type: Boolean  
-Default: false
-
-Indicator to use minified assests.  
-This property is passed as `_minified` to handlebars views.
-
 #### `nitro.mode.offline`
 
-Type: Boolean  
-Default: false
+* Type: Boolean  
+* Default: false
 
 If set to true, browsersync will be loaded in offline mode.  
-This property is passed as `_offline` to handlebars views.
+This property is passed as `_nitro.offline` to handlebars views.
 
 ### Watch
 
 #### `nitro.watch.partials`
 
-Type: Boolean  
-Default: true
+* Type: Boolean  
+* Default: true
 
 If set to false, handlebars partials won't be watched and recompiled on change.
 
@@ -200,20 +132,92 @@ Type: Object
 * `nitro.watch.throttle.cache` - default: 3000  
   The CSS cache invalidation (on changing css dependencies) is only initiated <throttle.cache> ms after the last run.
 
-### Server
+## Server
 
-#### `server.port`
+### `server.port`
 
-Type: Integer
-Default: 8080
+* Type: Integer
+* Default: 8080
 
 The express server runs on this port.  
 An environment variable PORT will overwrite this property.
 
-#### `server.proxy`
+### `server.proxy`
 
-Type: Integer
-Default: 8081
+* Type: Integer
+* Default: 8081
 
 The proxy server with livereload functionality runs on this port.  
 An environment variable PROXY will overwrite this property.
+
+### `server.compression`
+
+* Type: Boolean
+* Default: true
+
+If set to `true`, all requests through express will be compressed.
+
+## Gulp
+
+### `gulp.dumpViews`
+
+Type: object
+
+Used in gulp task `dump-views`
+
+#### `gulp.dumpViews.viewFilter` 
+
+Type: Function
+
+Filters unwanted views (should return false for unwanted view urls). By default, all views will be dumped.
+
+e.g.: ```viewFilter: (url) => url !== 'incomplete'```
+
+### `gulp.copyAssets`
+
+Type: Array of Objects
+
+Copies all source files to dest folder
+
+Object Properties:
+
+* `gulp.copyAssets.src` Sting (default: '')
+* `gulp.copyAssets.dest` Sting (default: '')
+
+### `gulp.minifyImages`
+
+Type: Array of Objects
+
+Copies and minifies all source images to dest folder
+
+Object Properties:
+
+* `gulp.minifyImages.src` Sting (default: ''; example: 'src/shared/assets/img/\*\*/*')
+* `gulp.minifyImages.dest` Sting (default: ''; example: 'public/assets/img')
+
+### `gulp.svgSprites`
+
+Type: Array of Objects
+
+Generates icon sprite with the name of the last folder in src
+
+Properties:
+
+* `gulp.svgSprites.src` Sting (default: ''; example: 'src/patterns/atoms/icon/img/icons/*.svg')
+* `gulp.svgSprites.dest` Sting (default: ''; example: 'public/assets/svg')
+
+## Feature
+
+### i18next express middleware
+
+The node `feature.i18next` contains:
+
+* two configuration objects for i18next express middleware (default)  
+* or the boolean `false` to disable the feature completely.
+
+If you want to change the defaults in `feature.i18next.options` (configuration options)
+and `feature.i18next.optionsMiddleware` (mainly for express routes to ignore),
+check following documentations:
+
+* [i18next express middleware](https://github.com/i18next/i18next-express-middleware)
+* [configuration options](https://www.i18next.com/overview/configuration-options)
