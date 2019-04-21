@@ -1,0 +1,58 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+.o-footer {
+	background-color: $color-gray-2;
+	color: $color-white;
+	padding: 70px 0;
+
+	@media (min-width: $breakpoint-medium) {
+		padding: 100px 0;
+	}
+
+	&__col {
+		margin-bottom: 60px;
+
+		@media (min-width: $breakpoint-medium) {
+			margin-bottom: 0;
+		}
+	}
+
+	&__text {
+		margin-bottom: 14px;
+
+		@media (min-width: $breakpoint-medium) {
+			margin-bottom: 7px;
+		}
+
+		&--brand {
+			@include title-size-1();
+			margin-bottom: 48px;
+		}
+
+		&--main {
+			border-bottom: 1px solid $color-white;
+			padding-bottom: 14px;
+			@include title-size-2();
+			font-weight: 200;
+			margin-bottom: 28px;
+		}
+	}
+
+	&__network {
+		margin-bottom: 14px;
+		display: flex;
+		align-items: center;
+	}
+
+	.a-bubble {
+		margin-right: 14px;
+		background-color: $color-black;
+
+		.a-icon {
+			width: 60%;
+			height: 60%;
+		}
+	}
+}

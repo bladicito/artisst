@@ -1,0 +1,23 @@
+{
+	"modifier": [],
+	"content": [
+		{
+			"name": "subtitle",
+			"data": {
+				"text": "Willkomen zum Artisst"
+			}
+		},
+		{
+			"name": "paragraph",
+			"data": {
+				"text": "The ship's all yours. If the scanners pick up anything, report it immediately. All right, let's go. Hey down there, could you give us a hand with this? TX-four-one-two. Why aren't you at your post? TX-four-one-two, do you copy? Take over. We've got a bad transmitter. I'll see what I can do. You know, between his howling and your blasting everything in sight, it's a wonder the whole station doesn't know we're here. Bring them on! I prefer a straight fight to all this sneaking around. We found the computer outlet, sir. Plug in. He should be able to interpret the entire Imperial computer network."
+			}
+		},
+		{
+			"name": "paragraph",
+			"data": {
+				"text": "Willkomen zum Artisst"
+			}
+		}
+	]
+}

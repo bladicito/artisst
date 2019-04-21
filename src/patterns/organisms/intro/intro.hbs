@@ -1,7 +1,14 @@
 <div class="o-intro{{#if modifier}} o-intro--{{modifier}}{{/if}}" data-t-name="Intro"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
-	<div class="o-intro__slider">
-		{{pattern name="slider"}}
-	</div>
+	{{#if slider}}
+		<div class="o-intro__slider">
+			{{pattern name="slider"}}
+		</div>
+	{{/if}}
+	{{#if image}}
+		<div class="o-intro__image">
+			{{pattern name="image" data=image}}
+		</div>
+	{{/if}}
 	<div class="o-intro__content">
 		<div class="container">
 			<div class="o-intro__row row">

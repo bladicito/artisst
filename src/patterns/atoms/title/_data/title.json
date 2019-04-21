@@ -1,4 +1,11 @@
 {
 	"tag": "h1",
-	"text": "Willkomen zum Artisst"
+	"text": "Willkomen zum Artisst",
+	"bubbleData": {
+		"modifier": [],
+		"iconData": {
+			"modifier": [],
+			"icon": "foodtruck"
+		}
+	}
 }

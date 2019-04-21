@@ -2,16 +2,15 @@
 @import '../../../../../shared/utils/typography/typography';
 @import '../../../../../shared/utils/00_variables-colors';
 
-
 .m-slider--content {
-		@media (max-width: $breakpoint-medium) {
-			position: relative;
-			left: 50%;
-			right: 50%;
-			width: 100vw;
-			margin-left: -50vw;
-			margin-right: -50vw
-		}
+	@media (max-width: $breakpoint-medium) {
+		position: relative;
+		left: 50%;
+		right: 50%;
+		width: 100vw;
+		margin-left: -50vw;
+		margin-right: -50vw;
+	}
 
 	.m-slider {
 		&__single-item {

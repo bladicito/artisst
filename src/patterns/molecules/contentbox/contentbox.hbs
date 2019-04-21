@@ -1,0 +1,5 @@
+<div class="m-contentbox {{#each modifier}} m-contentbox--{{this}}{{/each}}" data-t-name="Contentbox">
+	{{#each content}}
+		{{pattern name=this.name data=this.data}}
+	{{/each}}
+</div>

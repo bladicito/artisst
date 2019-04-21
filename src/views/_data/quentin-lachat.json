@@ -1,0 +1,67 @@
+{
+	"pageTitle": "Artisst | Quentin Lachat",
+	"intro": {
+		"modifier": [],
+		"image": {
+			"modifier": [],
+			"decorator": "",
+			"srcset": {
+				"fallback": {
+					"x1": "assets/img/quentin-lachat-stage.jpg"
+				}
+			}
+		}
+	},
+	"mainTitle": {
+		"tag": "h1",
+		"text": "Quentin Lachat - <span class=\"artisst\">artisst</span>",
+		"bubbleData": {
+			"modifier": [],
+			"iconData": {
+				"modifier": [],
+				"icon": "chef"
+			}
+		}
+	},
+	"grid": {
+		"modifier": [],
+		"rows": [
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-5", "md-12", "sm-12"],
+						"pattern": {
+							"name": "image",
+							"data": {
+								"modifier": [],
+								"decorator": "",
+								"srcset": {
+									"fallback": {
+										"x1": "assets/img/quentin-lachat-profile.jpg"
+									}
+								}
+							}
+						}
+					},
+					{
+						"gridClasses": ["lg-7", "md-12", "sm-12"],
+						"pattern": {
+							"name": "contentbox",
+							"data": {
+								"modifier": [],
+								"content": [
+									{
+										"name": "paragraph",
+										"data": {
+											"text": "Nachdem Quentin seine Lehre als Koch im Alter von 18 Jahren abgeschlossen hatte, startete er mit Vollgas durch und stieg in die hohe Gastronomie ein. Nach ersten Erfahrungen als Koch im spanischen Galizien ging es ins weltberühmte Palace in Gstaad. Nach dieser unglaublichen Erfahrung durfte Quentin in einem Restaurant mit einem Michelin-Stern, der Traube in Trimbach, sein Wissen erweitern. Anschliessend ging es im Restaurant von Ivo Adam (1 Michelin-Stern), dem Seven in Ascona, weiter. Im Winter darauf kochte er bereits im Carlton Hotel in St. Moritz, bis er seinen ersten grossen Traum verwirklichen konnte: Kochen für Daniel Humm in New York. Nach all"
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

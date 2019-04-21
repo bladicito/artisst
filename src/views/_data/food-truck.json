@@ -1,207 +1,26 @@
 {
 	"pageTitle": "Artisst",
-	"mainTitle": {
-		"tag": "h1",
-		"text": "Foodtruck <span class=\"artisst\">artisst</span>"
-	},
-	"grid": {
+	"intro": {
 		"modifier": [],
-		"items": [
-			{
-				"gridClasses": ["lg-6", "md-12", "sm-12"],
-				"pattern": {
-					"name": "paragraph",
+		"slider": {
+			"modifier": ["intro"],
+			"decorator": "Intro",
+			"title": "",
+			"items": [
+				{
+					"patternname": "image",
 					"data": {
 						"modifier": [],
-						"text": "Mit unserem professionell eingerichteten Foodtruck sind wir stets regional unterwegs und bieten mittags an immer wieder unterschiedlichen Orten in und um Bern unsere einzigartigen Smørrebrød an."
-					}
-				}
-			},
-			{
-				"gridClasses": ["lg-6", "md-12", "sm-12"],
-				"pattern": {
-					"name": "slider",
-					"data": {
-						"modifier": ["content"],
-						"decorator": "Content",
-						"header": true,
-						"counter": true,
-						"title": "Foodtruck&nbsp;&nbsp;&nbsp;<span class=\"artisst\">artisst</span>",
-						"items": [
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck1.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck2.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck3.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck4.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck5.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck6.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck7.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck8.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck9.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck10.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck11.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck12.jpg"
-										}
-									}
-								}
-							},
-							{
-								"patternname": "image",
-								"data": {
-									"modifier": [],
-									"decorator": "",
-									"srcset": {
-										"fallback": {
-											"x1": "assets/img/foodtruck14.jpg"
-										}
-									}
-								}
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/gebranntes_ruebli.jpg"
 							}
-						]
+						}
 					}
-				}
-			},
-			{
-				"gridClasses": ["lg-12", "md-12", "sm-12"],
-				"pattern": {
-					"name": "subtitle",
-					"data": {
-						"modifier": [],
-						"text": "<span>Smørrebrød</span>"
-					}
-				}
-			},
-			{
-				"gridClasses": ["lg-6", "md-12", "sm-12"],
-				"pattern": {
-					"name": "image",
+				},
+				{
+					"patternname": "image",
 					"data": {
 						"modifier": [],
 						"decorator": "",
@@ -211,17 +30,347 @@
 							}
 						}
 					}
-				}
-			},
-			{
-				"gridClasses": ["lg-6", "md-12", "sm-12"],
-				"pattern": {
-					"name": "paragraph",
+				},
+				{
+					"patternname": "image",
 					"data": {
 						"modifier": [],
-						"text": "Smørrebrød – eine Geschmacksbombe auf Sauerteig sind «open face»- Sandwichs, die ursprünglich aus Dänemark stammen. Sie sind interessant im Geschmack, sehen einladend aus und sind zudem auch sehr gesund! Dank den vielfältigen Zubereitungsarten kennen sie punkto Geschmack und Kreativität keine Grenzen."
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/hirschfilet.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/ceviche.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/rueblitatar.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/pulpo.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/hummerpasta.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/himbeer.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/spargel.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/lachs.jpg"
+							}
+						}
 					}
 				}
+			]
+		}
+	},
+	"mainTitle": {
+		"tag": "h1",
+		"text": "Foodtruck <span class=\"artisst\">artisst</span>",
+		"bubbleData": {
+			"modifier": [],
+			"iconData": {
+				"modifier": [],
+				"icon": "foodtruck"
+			}
+		}
+	},
+	"grid": {
+		"modifier": [],
+		"rows": [
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "paragraph",
+							"data": {
+								"modifier": [],
+								"text": "Mit unserem professionell eingerichteten Foodtruck sind wir stets regional unterwegs und bieten mittags an immer wieder unterschiedlichen Orten in und um Bern unsere einzigartigen Smørrebrød an."
+							}
+						}
+					},
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "slider",
+							"data": {
+								"modifier": ["content"],
+								"decorator": "Content",
+								"header": true,
+								"counter": true,
+								"title": "Foodtruck&nbsp;&nbsp;&nbsp;<span class=\"artisst\">artisst</span>",
+								"items": [
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck1.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck2.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck3.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck4.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck5.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck6.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck7.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck8.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck9.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck10.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck11.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck12.jpg"
+												}
+											}
+										}
+									},
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck14.jpg"
+												}
+											}
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-12", "md-12", "sm-12"],
+						"pattern": {
+							"name": "subtitle",
+							"data": {
+								"modifier": [],
+								"text": "<span>Smørrebrød</span>"
+							}
+						}
+					}
+				]
+			},
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "image",
+							"data": {
+								"modifier": [],
+								"decorator": "",
+								"srcset": {
+									"fallback": {
+										"x1": "assets/img/smoerebroet_variation.jpg"
+									}
+								}
+							}
+						}
+					},
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "paragraph",
+							"data": {
+								"modifier": [],
+								"text": "Smørrebrød – eine Geschmacksbombe auf Sauerteig sind «open face»- Sandwichs, die ursprünglich aus Dänemark stammen. Sie sind interessant im Geschmack, sehen einladend aus und sind zudem auch sehr gesund! Dank den vielfältigen Zubereitungsarten kennen sie punkto Geschmack und Kreativität keine Grenzen."
+							}
+						}
+					}
+				]
 			}
 		]
 	}

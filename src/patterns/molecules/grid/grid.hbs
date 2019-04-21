@@ -1,9 +1,11 @@
 <div class="m-grid{{#each modifier}} m-grid--{{this}}{{/each}}" data-t-name="Grid">
-	<div class="m-grid__container row">
-		{{#each items}}
-			<div class="m-grid__col {{#each gridClasses}} col-{{this}}{{/each}}">
-				{{pattern name=pattern.name data=pattern.data}}
-			</div>
-		{{/each}}
-	</div>
+	{{#each rows}}
+		<div class="m-grid__container row">
+			{{#each cols}}
+				<div class="m-grid__col{{#each gridClasses}} col-{{this}}{{/each}}">
+					{{pattern name=pattern.name data=pattern.data}}
+				</div>
+			{{/each}}
+		</div>
+	{{/each}}
 </div>

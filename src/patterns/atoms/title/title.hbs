@@ -1,3 +1,8 @@
-<{{tag}} class="a-title{{#if modifier}} a-title--{{modifier}}{{/if}}" data-t-name="Title"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
-	{{{text}}}
-</{{tag}}>
+<div class="a-title{{#if modifier}} a-title--{{modifier}}{{/if}}" data-t-name="Title"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
+	<{{tag}} class="a-title__text">
+		{{{text}}}
+	</{{tag}}>
+	{{#if bubbleData}}
+		{{pattern name="bubble" data=bubbleData}}
+	{{/if}}
+</div>

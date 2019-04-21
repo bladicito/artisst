@@ -3,7 +3,6 @@
 @import '../../../../shared/utils/typography/typography';
 @import '../../../../shared/utils/00_variables-colors';
 
-
 .m-slider {
 	position: relative;
 	padding: 0 10px;
@@ -57,6 +56,8 @@
 		font-size: 30px;
 		position: relative;
 	}
+
+	/* stylelint-disable */
 
 	&__arrow {
 		padding: 5px;
@@ -146,4 +147,6 @@
 			}
 		}
 	}
+
+	/* stylelint-enable */
 }

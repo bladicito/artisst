@@ -1,0 +1,22 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/002_slick';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+.a-bubble {
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	background-color: $color-black;
+	color: $color-white;
+	position: relative;
+
+	.a-icon {
+		position: absolute;
+		top: 50%;
+		left: 50%;
+		width: 60%;
+		height: 60%;
+		transform: translate(-50%, -50%);
+	}
+}

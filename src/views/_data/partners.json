@@ -1,0 +1,83 @@
+{
+	"pageTitle": "Artisst",
+	"intro": {
+		"modifier": [],
+		"image": {
+			"modifier": [],
+			"decorator": "",
+			"srcset": {
+				"fallback": {
+					"x1": "assets/img/gebranntes_ruebli.jpg"
+				}
+			}
+		}
+	},
+	"mainTitle": {
+		"tag": "h1",
+		"text": "Partner <span class=\"artisst\">artisst</span>",
+		"bubbleData": {
+			"modifier": [],
+			"iconData": {
+				"modifier": [],
+				"icon": "handshake"
+			}
+		}
+	},
+	"grid": {
+		"modifier": [],
+		"rows": [
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "paragraph",
+							"data": {
+								"modifier": [],
+								"text": "Für uns ist der zwischenmenschliche Kontakt zu den unterschiedlichen Partnern und Menschen elementar. Wir sind Teil eines Netzwerks, das gemeinsame Wege geht und Synergien nutzt."
+							}
+						}
+					}
+				]
+			},
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "contentbox",
+							"data": {
+								"modifier": [],
+								"content": [
+									{
+										"name": "list",
+										"data": {
+											"items": [
+												{
+													"title": "Stämpfli AG",
+													"text": "Kommunikationsunternehmen mit ganzheitlich integrierten Leistungen unter einem Dach für Unternehmen, Verbände und Organisationen hat uns bei der Entwicklung der Marke unterstützt. Mehr dazu unter <a href=\"https://staempfli.com\" target=\"_blank\" rel=\"noopener\">staempfli.com</a>"
+												},
+												{
+													"title": "Bread à Porter",
+													"text": "<a href=\"https://bread-a-porter.ch\" target=\"_blank\" rel=\"noopener\">bread-a-porter.ch</a>"
+												},
+												{
+													"title": "Wykiste",
+													"text": "<a href=\"https://wykiste.ch\" target=\"_blank\" rel=\"noopener\">wykiste.ch</a>"
+												},
+												{
+													"title": "Cultivino",
+													"text": "<a href=\"https://cultivino.ch\" target=\"_blank\" rel=\"noopener\">cultivino.ch</a>"
+												}
+											]
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

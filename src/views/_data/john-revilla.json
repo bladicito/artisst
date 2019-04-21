@@ -1,0 +1,82 @@
+{
+	"pageTitle": "Artisst | John Revilla",
+	"intro": {
+		"modifier": [],
+		"image": {
+			"modifier": [],
+			"decorator": "",
+			"srcset": {
+				"fallback": {
+					"x1": "assets/img/john-revilla-stage-2.jpg"
+				}
+			}
+		}
+	},
+	"mainTitle": {
+		"tag": "h1",
+		"text": "John Revilla - <span class=\"artisst\">artisst</span>",
+		"bubbleData": {
+			"modifier": [],
+			"iconData": {
+				"modifier": [],
+				"icon": "chef"
+			}
+		}
+	},
+	"grid": {
+		"modifier": [],
+		"rows": [
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"pattern": {
+							"name": "blockquote",
+							"data": {
+								"modifier": [],
+								"text": "Mit artisst verwirklichen sich die beiden einen Traum und bringen die Passion für die Einfachheit und den Geschmack nordischer Speisendirekt zu ihren Gästen",
+								"source": "Criterion Journal"
+							}
+						}
+					}
+				]
+			},
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-5", "md-12", "sm-12"],
+						"pattern": {
+							"name": "image",
+							"data": {
+								"modifier": [],
+								"decorator": "",
+								"srcset": {
+									"fallback": {
+										"x1": "assets/img/john-revilla-profile.jpg"
+									}
+								}
+							}
+						}
+					},
+					{
+						"gridClasses": ["lg-7", "md-12", "sm-12"],
+						"pattern": {
+							"name": "contentbox",
+							"data": {
+								"modifier": [],
+								"content": [
+									{
+										"name": "paragraph",
+										"data": {
+											"text": "John ist ein sehr talentierter Koch. Er beherrscht sein Handwerk bis ins letzte Detail. Dank seiner peruanischen Herkunft fällt ihm das Spiel mit verschiedensten Aromen leicht. So schafft es John, jeden Gaumen zu überraschen. Nach seinem Wirtschaftsstudium liess er alles liegen und widmete sich seiner Passion, dem Kochen. Nach verschiedenen Restaurants in der Region Bern wie der Haberbüni oder einer Stage bei Stefan Wisner entschloss er sich, mit seiner Erfahrung und seiner Kreativität ein eigenes Projekt aufzuziehen. Das Kochen hört bei John nach Arbeitsende noch lange nicht auf. Bis spät in die Nacht hinein probiert"
+										}
+									}
+								]
+							}
+						}
+					}
+				]
+			}
+		]
+	}
+}

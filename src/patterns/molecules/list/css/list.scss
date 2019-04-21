@@ -1,0 +1,15 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+
+.m-list {
+	@include copy-size-1();
+	list-style: disc;
+	padding-left: 28px;
+
+	li {
+
+		span {
+			font-weight: 500;
+		}
+	}
+}
