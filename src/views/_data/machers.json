@@ -149,16 +149,12 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers",
 				"selected": true
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]
@@ -215,7 +211,7 @@
 							"name": "subtitle",
 							"data": {
 								"modifier": [],
-								"text": "Die <span>Küchenchefs</span>"
+								"text": "<span>Team</span>"
 							}
 						}
 					}

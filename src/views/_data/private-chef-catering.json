@@ -20,15 +20,11 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers"
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]
@@ -44,7 +40,7 @@
 			},
 			"srcset": {
 				"fallback": {
-					"x1": "assets/img/gebranntes_ruebli.jpg"
+					"x1": "assets/img/spargel.jpg"
 				}
 			}
 		}
@@ -81,7 +77,7 @@
 							"name": "paragraph",
 							"data": {
 								"modifier": [],
-								"text": "Lassen Sie sich bei Ihnen zu Hause oder an dem Ort Ihrer Wahl verwöhnen. Wir kochen für private Anlässe und für Events jeglicher Art. Haben Sie einen gemütlichen Abend mit Gästen geplant, ein Geschäftsessen oder eine Hochzeit? Wir sind für Sie da! Damit wir ortsunabhängig kochen können und nicht auf die lokale Infrastruktur angewiesen sind, besitzt artisst einen eigenen <a href=\"/food-truck\">Foodtruck</a>, den Freightliner MT-45. Die Anzahl Personen ist nicht entscheidend. Wir bekochen für Sie gerne kleine sowie grosse Gruppen und verwandeln Ihren Anlass in ein kulinarisches Erlebnis. click <a href=\"mailto:eat@artisst.ch\">here</a> or contact us at <a href=\"mailto:eat@artisst.ch\">eat@artisst.ch</a>"
+								"text": "Lassen Sie sich bei Ihnen zu Hause oder an dem Ort Ihrer Wahl verwöhnen. Wir kochen für private Anlässe und für Events jeglicher Art. Haben Sie einen gemütlichen Abend mit Gästen geplant, ein Geschäftsessen oder eine Hochzeit? Wir sind für Sie da! Damit wir ortsunabhängig kochen können und nicht auf die lokale Infrastruktur angewiesen sind, besitzt artisst einen eigenen <a href=\"food-truck\">Foodtruck</a>, den Freightliner MT-45. Die Anzahl Personen ist nicht entscheidend. Wir bekochen für Sie gerne kleine sowie grosse Gruppen und verwandeln Ihren Anlass in ein kulinarisches Erlebnis.Gerne erstellen wir für Sie ein Angebot."
 							}
 						}
 					},
@@ -91,7 +87,7 @@
 							"name": "subtitle",
 							"data": {
 								"modifier": [],
-								"text": "<span>Konzept</span> private cooking/catering"
+								"text": "<span>Private</span> cooking/catering"
 							}
 						}
 					},

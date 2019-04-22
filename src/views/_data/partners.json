@@ -11,7 +11,7 @@
 			},
 			"srcset": {
 				"fallback": {
-					"x1": "assets/img/gebranntes_ruebli.jpg"
+					"x1": "assets/img/pulpo.jpg"
 				}
 			}
 		}
@@ -35,15 +35,11 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers"
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners",
 				"selected": true
 			}
@@ -92,7 +88,7 @@
 											"items": [
 												{
 													"title": "Stämpfli AG",
-													"text": "Kommunikationsunternehmen mit ganzheitlich integrierten Leistungen unter einem Dach für Unternehmen, Verbände und Organisationen hat uns bei der Entwicklung der Marke unterstützt. Mehr dazu unter <a href=\"https://staempfli.com\" target=\"_blank\" rel=\"noopener\">staempfli.com</a>"
+													"text": "<a href=\"https://staempfli.com\" target=\"_blank\" rel=\"noopener\">staempfli.com</a>"
 												},
 												{
 													"title": "Bread à Porter",

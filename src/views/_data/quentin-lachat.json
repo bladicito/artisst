@@ -35,16 +35,12 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers",
 				"selected": true
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]

@@ -20,15 +20,11 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers"
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]
@@ -40,18 +36,6 @@
 			"decorator": "Intro",
 			"title": "",
 			"items": [
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/gebranntes_ruebli.jpg"
-							}
-						}
-					}
-				},
 				{
 					"patternname": "image",
 					"data": {
@@ -72,6 +56,18 @@
 						"srcset": {
 							"fallback": {
 								"x1": "assets/img/hirschfilet.jpg"
+							}
+						}
+					}
+				},
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/gebranntes_ruebli.jpg"
 							}
 						}
 					}
@@ -165,7 +161,7 @@
 	},
 	"mainTitle": {
 		"tag": "h1",
-		"text": "Willkomen zum <span class=\"artisst\">artisst</span>",
+		"text": "Willkomen zu <span class=\"artisst\">artisst</span>",
 		"bubbleData": {
 			"modifier": [],
 			"iconData": {

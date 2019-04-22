@@ -20,15 +20,11 @@
 				"href": "/kochkurs"
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers"
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]
@@ -71,7 +67,7 @@
 							"name": "paragraph",
 							"data": {
 								"modifier": [],
-								"text": "Mit unserem professionell eingerichteten Foodtruck sind wir stets regional unterwegs und bieten mittags an immer wieder unterschiedlichen Orten in und um Bern unsere einzigartigen Smørrebrød an."
+								"text": "Unser Foodtruck, ein Freightliner MT-45, ist eine voll ausgestattete, professionelle Küche auf Rädern für Catering und Events. Damit sind wir permanent auf Tour und bieten mittags an wechselnden Standorten in und um Bern unsere beliebten Smørrebrød an. Der populäre Klassiker der dänischen Küche verführt mit einem üppigen Belag auf einer dünnen Scheibe Sauerteigbrot. Hinsichtlich der Zubereitungsmöglichkeiten, ob warm oder kalt und der Kreativität kennen Smørrebrød keine Grenzen. Sie lassen sich ganz einfach nach ihren persönlichen Vorlieben zusammenstellen oder an ihre spezifischen Bedürfnisse bezüglich Verträglichkeit anpassen."
 							}
 						}
 					},
@@ -86,6 +82,18 @@
 								"counter": true,
 								"title": "Foodtruck&nbsp;&nbsp;&nbsp;<span class=\"artisst\">artisst</span>",
 								"items": [
+									{
+										"patternname": "image",
+										"data": {
+											"modifier": [],
+											"decorator": "",
+											"srcset": {
+												"fallback": {
+													"x1": "assets/img/foodtruck-air.jpg"
+												}
+											}
+										}
+									},
 									{
 										"patternname": "image",
 										"data": {
@@ -243,6 +251,20 @@
 										}
 									}
 								]
+							}
+						}
+					}
+				]
+			},
+			{
+				"cols": [
+					{
+						"gridClasses": ["lg-12", "md-12", "sm-12"],
+						"pattern": {
+							"name": "paragraph",
+							"data": {
+								"modifier": [],
+								"text": "Planen sie ihren nächsten privaten oder geschäftlichen Anlass einmal an einem ganz speziellen Ort! Wie wäre es beispielsweise mit einer sommerlichen Waldlichtung? Einem schönen Aussichtspunkt oder einem idyllischen Bachlauf? Wir bringen unsere mobile Küche dahin, wo sie es gerne hätten. Und wo unsere Küche steht, da dürfen sie sich auf etwas freuen. Mit allem drum und dran!"
 							}
 						}
 					}

@@ -20,15 +20,11 @@
 				"selected": true
 			},
 			{
-				"text": "Machers",
+				"text": "Macher",
 				"href": "/machers"
 			},
 			{
-				"text": "Kontakt",
-				"href": "/kontakt"
-			},
-			{
-				"text": "Partners",
+				"text": "Partner",
 				"href": "/partners"
 			}
 		]
@@ -71,7 +67,7 @@
 							"name": "paragraph",
 							"data": {
 								"modifier": [],
-								"text": "Sie möchten einen gemütlichen Abend mit Ihren Gästen verbringen und sie mit einem selbstgekochten Menü verwöhnen? Sie stellen dann aber fest, dass Ihnen durch das Kochen nicht viel Zeit für Ihre Gäste bleibt? In unserem Kochkurs zeigen wir Ihnen, wie Ihnen beides gelingt. Wir stellen neue Rezepte und Techniken "
+								"text": "Sie möchten einen gemütlichen Abend mit Ihren Gästen verbringen und sie mit einem selbstgekochten Menü verwöhnen? Sie stellen dann aber fest, dass Ihnen durch das Kochen nicht viel Zeit für Ihre Gäste bleibt? In unserem Kochkurs zeigen wir Ihnen, wie Ihnen beides gelingt. Wir stellen neue Rezepte und Techniken vor und verraten Ihnen Tipps und Tricks, die Ihr Wissen erweitern werden. Von den grossen Klassikern bis hin zum Niedergaren/Sous Vide ist alles dabei. Fragen Sie uns an."
 							}
 						}
 					},
