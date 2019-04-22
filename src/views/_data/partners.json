@@ -5,6 +5,10 @@
 		"image": {
 			"modifier": [],
 			"decorator": "",
+			"position": {
+				"x": "center",
+				"y": "top"
+			},
 			"srcset": {
 				"fallback": {
 					"x1": "assets/img/gebranntes_ruebli.jpg"
