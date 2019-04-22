@@ -6,7 +6,8 @@
 		},
 		{
 			"text": "Foodtruck",
-			"href": "/food-truck"
+			"href": "/food-truck",
+			"selected": true
 		},
 		{
 			"text": "Private Chef-Catering",
@@ -15,10 +16,6 @@
 		{
 			"text": "Kochkurs",
 			"href": "/kochkurs"
-		},
-		{
-			"text": "Events",
-			"href": "/events"
 		},
 		{
 			"text": "Machers",

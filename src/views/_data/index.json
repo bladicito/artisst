@@ -1,5 +1,38 @@
 {
 	"pageTitle": "Artisst",
+	"menu": {
+		"items": [
+			{
+				"text": "<span class=\"artisst\">artisst</span>",
+				"href": "/",
+				"selected": true
+			},
+			{
+				"text": "Foodtruck",
+				"href": "/food-truck"
+			},
+			{
+				"text": "Private Chef-Catering",
+				"href": "/private-chef-catering"
+			},
+			{
+				"text": "Kochkurs",
+				"href": "/kochkurs"
+			},
+			{
+				"text": "Machers",
+				"href": "/machers"
+			},
+			{
+				"text": "Kontakt",
+				"href": "/kontakt"
+			},
+			{
+				"text": "Partners",
+				"href": "/partners"
+			}
+		]
+	},
 	"intro": {
 		"modifier": [],
 		"slider": {
@@ -157,7 +190,7 @@
 										"x1": "assets/img/ceviche.jpg"
 									}
 								},
-								"alt": "<span class=\"artisst\">artisst</span> Private Cooking & Catering"
+								"alt": "artisstPrivate Cooking & Catering"
 							}
 						}
 					},
@@ -167,7 +200,7 @@
 							"name": "blockquote",
 							"data": {
 								"modifier": [],
-								"text": "<span class=\"artisst\">artisst</span> ist das Resultat unserer Passion für die nordisch inspirierte Küche. Wir kochen mitnatürlichen, unveränderten Zutaten, bei denennicht die Optik, sondern der Geschmack an erster Stelle steht.<br/>Unsere Gerichte werden mit regionalen Produkten zubereitet, wobei wir diese möglichst komplett verwenden. So wird der Abfall auf ein Minimum reduziert.",
+								"text": "<span class=\"artisst\">artisst</span> ist die Essenz unserer Passion für die nordisch inspirierte Küche. Wir kochen mit natürlichen, unveränderten Zutaten, bei denen nicht die Optik, sondern der Geschmack an erster Stelle steht. <br/><br/>Unsere Gerichte werden mit regionalen Produkten zubereitet, wobei wir diese komplett verwenden um möglichst wenig Abfall zu produzieren.",
 								"source": "Quentin und John"
 							}
 						}
@@ -178,7 +211,7 @@
 							"name": "paragraph",
 							"data": {
 								"modifier": [],
-								"text": "<span class=\"artisst\">artisst</span> vereint den einmaligen Geschmack mit einer wunderschönen Optik und verbinden Essen mit Kunst. <br/><br/>Wir gehen gerne gemeinsam mit Ihnen auf eine kulinarische Reise. Wir sind stets für Sie in Bewegung und lassen uns von den örtlichen Gegebenheiten gerne inspirieren, um für Sie ein unvergessliches Erlebnis mit vielen genussvollen Momenten zu schaffen."
+								"text": "<span class=\"artisst\">artisst</span> artisst vereint die authentischen Aromen von frischen Zutaten mit einer reizvollen Optik und verbindet Essen mit Küchenartistik.<br/>Ein Picknick im Grünen, gesunder Streetfood für einen Event oder ein Sternemenü bei ihnen daheim. Wir sind stets in Bewegung und lassen uns von den örtlichen Gegebenheiten inspirieren und kreieren für sie ein einzigartiges gastronomisches Erlebnis"
 							}
 						}
 					},
@@ -188,7 +221,7 @@
 							"name": "paragraph",
 							"data": {
 								"modifier": [],
-								"text": "Für unsere puristische Küche verwenden wir qualitativ hochstehende und regionale Produkte. Der respektvolle Umgang mit den Produkten ist uns sehr wichtig. Von gesundem Streetfood bis hin zu einem Sternemenü bei Ihnen zu Hause kann Ihnen <span class=\"artisst\">artisst</span> alles bieten."
+								"text": "Für unsere puristische Küche verwenden wir qualitativ hochstehende und regionale Produkte. Der respektvolle Umgang mit den Produkten ist uns sehr wichtig."
 							}
 						}
 					}

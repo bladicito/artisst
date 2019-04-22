@@ -1,133 +1,52 @@
 {
 	"pageTitle": "Artisst",
+	"menu": {
+		"items": [
+			{
+				"text": "<span class=\"artisst\">artisst</span>",
+				"href": "/"
+			},
+			{
+				"text": "Foodtruck",
+				"href": "/food-truck"
+			},
+			{
+				"text": "Private Chef-Catering",
+				"href": "/private-chef-catering",
+				"selected": true
+			},
+			{
+				"text": "Kochkurs",
+				"href": "/kochkurs"
+			},
+			{
+				"text": "Machers",
+				"href": "/machers"
+			},
+			{
+				"text": "Kontakt",
+				"href": "/kontakt"
+			},
+			{
+				"text": "Partners",
+				"href": "/partners"
+			}
+		]
+	},
 	"intro": {
 		"modifier": [],
-		"slider": {
-			"modifier": ["intro"],
-			"decorator": "Intro",
-			"title": "",
-			"items": [
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/gebranntes_ruebli.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/smoerebroet_variation.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/hirschfilet.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/ceviche.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/rueblitatar.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/pulpo.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/hummerpasta.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/himbeer.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/spargel.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/lachs.jpg"
-							}
-						}
-					}
+		"image": {
+			"modifier": [],
+			"decorator": "",
+			"position": {
+				"x": "center",
+				"y": "top"
+			},
+			"srcset": {
+				"fallback": {
+					"x1": "assets/img/gebranntes_ruebli.jpg"
 				}
-			]
+			}
 		}
 	},
 	"mainTitle": {
@@ -137,7 +56,7 @@
 			"modifier": [],
 			"iconData": {
 				"modifier": [],
-				"icon": "foodtruck"
+				"icon": "tools"
 			}
 		}
 	},

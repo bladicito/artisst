@@ -5,12 +5,49 @@
 		"image": {
 			"modifier": [],
 			"decorator": "",
+			"position": {
+				"x": "left",
+				"y": "top"
+			},
 			"srcset": {
 				"fallback": {
 					"x1": "assets/img/quentin-lachat-stage.jpg"
 				}
 			}
 		}
+	},
+	"menu": {
+		"items": [
+			{
+				"text": "<span class=\"artisst\">artisst</span>",
+				"href": "/"
+			},
+			{
+				"text": "Foodtruck",
+				"href": "/food-truck"
+			},
+			{
+				"text": "Private Chef-Catering",
+				"href": "/private-chef-catering"
+			},
+			{
+				"text": "Kochkurs",
+				"href": "/kochkurs"
+			},
+			{
+				"text": "Machers",
+				"href": "/machers",
+				"selected": true
+			},
+			{
+				"text": "Kontakt",
+				"href": "/kontakt"
+			},
+			{
+				"text": "Partners",
+				"href": "/partners"
+			}
+		]
 	},
 	"mainTitle": {
 		"tag": "h1",

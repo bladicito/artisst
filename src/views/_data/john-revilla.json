@@ -1,5 +1,38 @@
 {
 	"pageTitle": "Artisst | John Revilla",
+	"menu": {
+		"items": [
+			{
+				"text": "<span class=\"artisst\">artisst</span>",
+				"href": "/"
+			},
+			{
+				"text": "Foodtruck",
+				"href": "/food-truck"
+			},
+			{
+				"text": "Private Chef-Catering",
+				"href": "/private-chef-catering"
+			},
+			{
+				"text": "Kochkurs",
+				"href": "/kochkurs"
+			},
+			{
+				"text": "Machers",
+				"href": "/machers",
+				"selected": true
+			},
+			{
+				"text": "Kontakt",
+				"href": "/kontakt"
+			},
+			{
+				"text": "Partners",
+				"href": "/partners"
+			}
+		]
+	},
 	"intro": {
 		"modifier": [],
 		"image": {

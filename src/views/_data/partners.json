@@ -12,6 +12,39 @@
 			}
 		}
 	},
+	"menu": {
+		"items": [
+			{
+				"text": "<span class=\"artisst\">artisst</span>",
+				"href": "/"
+			},
+			{
+				"text": "Foodtruck",
+				"href": "/food-truck"
+			},
+			{
+				"text": "Private Chef-Catering",
+				"href": "/private-chef-catering"
+			},
+			{
+				"text": "Kochkurs",
+				"href": "/kochkurs"
+			},
+			{
+				"text": "Machers",
+				"href": "/machers"
+			},
+			{
+				"text": "Kontakt",
+				"href": "/kontakt"
+			},
+			{
+				"text": "Partners",
+				"href": "/partners",
+				"selected": true
+			}
+		]
+	},
 	"mainTitle": {
 		"tag": "h1",
 		"text": "Partner <span class=\"artisst\">artisst</span>",
@@ -68,6 +101,10 @@
 												{
 													"title": "Cultivino",
 													"text": "<a href=\"https://cultivino.ch\" target=\"_blank\" rel=\"noopener\">cultivino.ch</a>"
+												},
+												{
+													"title": "Schangli",
+													"text": "<a href=\"https://www.schangli.ch\" target=\"_blank\" rel=\"noopener\">schangli.ch</a>"
 												}
 											]
 										}

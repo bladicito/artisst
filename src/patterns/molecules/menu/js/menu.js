@@ -13,9 +13,19 @@ import $ from 'jquery';
 // const stateClasses = { disabled: 'state-menu--disabled' };
 
 T.Module.Menu = T.createModule({
+	states: {
+		fixed: 'state-m-menu--fixed',
+	},
 	start(resolve) {
 		this.$ctx = $(this._ctx);
-
+		this._events.on('Intro.onScroll', this._introScroll.bind(this));
 		resolve();
+	},
+	_introScroll(data) {
+		if (data.fixMenu) {
+			this.$ctx.addClass(this.states.fixed);
+		} else {
+			this.$ctx.removeClass(this.states.fixed);
+		}
 	},
 });

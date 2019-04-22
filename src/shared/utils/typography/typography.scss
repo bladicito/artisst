@@ -11,6 +11,10 @@ $font-size-2: 28px;
 $font-size-3: 29px;
 $font-size-6: 30px;
 $font-size-4: 36px;
+$font-size-7: 18px;
+$font-size-8: 15px;
+
+
 
 @mixin font-size($size, $line-height) {
 	font-size: $size;
@@ -68,6 +72,18 @@ $font-size-4: 36px;
 		@include font-size($font-size-4, 1.2);
 	}
 }
+
+@mixin copy-size-4() {
+	font-family: $font-family-default;
+	letter-spacing: 1px;
+	@include font-size($font-size-8, 1.2);
+
+	@media (min-width: $breakpoint-medium) {
+		@include font-size($font-size-7, 1.2);
+	}
+}
+
+
 
 @mixin artisst-text() {
 	font-family: $font-family-artisst;

@@ -27,7 +27,8 @@
 	}
 
 	&__source {
-		@include copy-size-2();
+		font-style: italic;
+		font-weight: 200;
 		margin-top: 10px;
 		text-align: right;
 

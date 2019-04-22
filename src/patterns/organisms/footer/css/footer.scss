@@ -5,10 +5,10 @@
 .o-footer {
 	background-color: $color-gray-2;
 	color: $color-white;
-	padding: 70px 0;
+	padding: 30px 0;
 
 	@media (min-width: $breakpoint-medium) {
-		padding: 100px 0;
+		padding: 50px 0;
 	}
 
 	&__col {

@@ -16,6 +16,25 @@ T.Module.Intro = T.createModule({
 	start(resolve) {
 		this.$ctx = $(this._ctx);
 
+		const debouncer = this.debounce(() => {
+			const fixMenu = this.onViewport();
+			this._events.emit('Intro.onScroll', { fixMenu });
+		}, 10);
+
+		$(window).on('scroll', debouncer);
+
 		resolve();
+	},
+
+	onViewport() {
+		return $(window).scrollTop() > this.$ctx.height();
+	},
+
+	debounce(fn, wait = 20) {
+		let timeout;
+		return function(...args) {
+			clearTimeout(timeout);
+			timeout = setTimeout(() => fn.call(this, ...args), wait);
+		};
 	},
 });
