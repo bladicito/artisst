@@ -3,11 +3,6 @@
 	"menu": {
 		"items": [
 			{
-				"text": "<span class=\"artisst\">artisst</span>",
-				"href": "/",
-				"selected": true
-			},
-			{
 				"text": "Foodtruck",
 				"href": "/food-truck"
 			},
@@ -36,6 +31,18 @@
 			"decorator": "Intro",
 			"title": "",
 			"items": [
+				{
+					"patternname": "image",
+					"data": {
+						"modifier": [],
+						"decorator": "",
+						"srcset": {
+							"fallback": {
+								"x1": "assets/img/slide_artisst.jpg"
+							}
+						}
+					}
+				},
 				{
 					"patternname": "image",
 					"data": {

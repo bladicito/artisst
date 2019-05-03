@@ -3,10 +3,6 @@
 	"menu": {
 		"items": [
 			{
-				"text": "<span class=\"artisst\">artisst</span>",
-				"href": "/"
-			},
-			{
 				"text": "Foodtruck",
 				"href": "/food-truck",
 				"selected": true
@@ -62,7 +58,7 @@
 			{
 				"cols": [
 					{
-						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"gridClasses": ["lg-4", "md-12", "sm-12"],
 						"pattern": {
 							"name": "paragraph",
 							"data": {
@@ -72,7 +68,17 @@
 						}
 					},
 					{
-						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"gridClasses": ["lg-4", "md-12", "sm-12"],
+						"pattern": {
+							"name": "paragraph",
+							"data": {
+								"modifier": [],
+								"text": "Unser Foodtruck, ein Freightliner MT-45, ist eine voll ausgestattete, professionelle Küche auf Rädern für Catering und Events. Damit sind wir permanent auf Tour und bieten mittags an wechselnden Standorten in und um Bern unsere beliebten Smørrebrød an. Der populäre Klassiker der dänischen Küche verführt mit einem üppigen Belag auf einer dünnen Scheibe Sauerteigbrot. Hinsichtlich der Zubereitungsmöglichkeiten, ob warm oder kalt und der Kreativität kennen Smørrebrød keine Grenzen. Sie lassen sich ganz einfach nach ihren persönlichen Vorlieben zusammenstellen oder an ihre spezifischen Bedürfnisse bezüglich Verträglichkeit anpassen."
+							}
+						}
+					},
+					{
+						"gridClasses": ["lg-4", "md-12", "sm-12"],
 						"pattern": {
 							"name": "slider",
 							"data": {

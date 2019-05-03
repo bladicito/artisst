@@ -1,10 +1,6 @@
 {
 	"items": [
 		{
-			"text": "<span class=\"artisst\">artisst</span>",
-			"href": "/"
-		},
-		{
 			"text": "Foodtruck",
 			"href": "/food-truck",
 			"selected": true

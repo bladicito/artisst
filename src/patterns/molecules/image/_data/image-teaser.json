@@ -1,0 +1,10 @@
+{
+	"modifier": [],
+	"decorator": "",
+	"srcset": {
+		"fallback": {
+			"x1": "assets/img/john-revilla-profile.jpg"
+		}
+	},
+	"alt": "John Revilla"
+}

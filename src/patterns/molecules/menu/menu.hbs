@@ -1,17 +1,30 @@
 <nav class="m-menu{{#each modifier}} m-menu--{{this}}{{/each}}" data-t-name="Menu"{{#if decorator}} data-t-decorator="{{decorator}}"{{/if}}>
 	<div class="container">
-		<div class="row">
-			<div class="col-12">
-				<ul class="m-menu__holder">
-					{{#each items}}
-						<li class="m-menu__item{{#if selected}} m-menu__item--selected{{/if}}">
-							<a href="{{href}}">
-								{{{text}}}
-							</a>
-						</li>
-					{{/each}}
-				</ul>
+		<div class="m-menu__logo">
+			<a href="/">
+				{{pattern name="image" data="image-logo"}}
+			</a>
+		</div>
+		<ul class="m-menu__holder">
+			{{#each items}}
+				<li class="m-menu__item{{#if selected}} m-menu__item--selected{{/if}}">
+					<a href="{{href}}">
+						{{{text}}}
+					</a>
+				</li>
+			{{/each}}
+		</ul>
+		<div class="m-menu__burger js-m-menu__burger">
+			<span>Menü</span>
+			<div class="m-menu__open">
+				{{pattern name="icon" icon="burger-btn"}}
 			</div>
+			<div class="m-menu__close">
+				{{pattern name="icon" icon="close"}}
+			</div>
+		</div>
+		<div class="m-menu__logo-big">
+			{{pattern name="image"}}
 		</div>
 	</div>
 </nav>

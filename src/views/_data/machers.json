@@ -2,140 +2,22 @@
 	"pageTitle": "Artisst",
 	"intro": {
 		"modifier": [],
-		"slider": {
-			"modifier": ["intro"],
-			"decorator": "Intro",
-			"title": "",
-			"items": [
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/gebranntes_ruebli.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/smoerebroet_variation.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/hirschfilet.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/ceviche.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/rueblitatar.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/pulpo.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/hummerpasta.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/himbeer.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/spargel.jpg"
-							}
-						}
-					}
-				},
-				{
-					"patternname": "image",
-					"data": {
-						"modifier": [],
-						"decorator": "",
-						"srcset": {
-							"fallback": {
-								"x1": "assets/img/lachs.jpg"
-							}
-						}
-					}
+		"image": {
+			"modifier": [],
+			"decorator": "",
+			"position": {
+				"x": "right",
+				"y": "top"
+			},
+			"srcset": {
+				"fallback": {
+					"x1": "assets/img/food-truck-main.jpg"
 				}
-			]
+			}
 		}
 	},
 	"menu": {
 		"items": [
-			{
-				"text": "<span class=\"artisst\">artisst</span>",
-				"href": "/"
-			},
 			{
 				"text": "Foodtruck",
 				"href": "/food-truck"
@@ -185,21 +67,6 @@
 								"source": "Criterion Journal"
 							}
 						}
-					},
-					{
-						"gridClasses": ["lg-6", "md-12", "sm-12"],
-						"pattern": {
-							"name": "image",
-							"data": {
-								"modifier": [],
-								"decorator": "",
-								"srcset": {
-									"fallback": {
-										"x1": "assets/img/john-quentin.jpg"
-									}
-								}
-							}
-						}
 					}
 				]
 			},
@@ -221,51 +88,15 @@
 			{
 				"cols": [
 					{
-						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"gridClasses": ["lg-6", "md-6", "sm-12"],
 						"pattern": {
-							"name": "contentbox",
-							"data": {
-								"modifier": ["centered"],
-								"content": [
-									{
-										"name": "link",
-										"data": {
-											"modifier": [],
-											"href": "quentin-lachat",
-											"text": "Quentin Lachat",
-											"bubbleData": {
-												"iconData": {
-													"icon": "knife"
-												}
-											}
-										}
-									}
-								]
-							}
+							"name": "teaser"
 						}
 					},
 					{
-						"gridClasses": ["lg-6", "md-12", "sm-12"],
+						"gridClasses": ["lg-6", "md-6", "sm-12"],
 						"pattern": {
-							"name": "contentbox",
-							"data": {
-								"modifier": [],
-								"content": [
-									{
-										"name": "link",
-										"data": {
-											"modifier": [],
-											"href": "john-revilla",
-											"text": "John Revilla",
-											"bubbleData": {
-												"iconData": {
-													"icon": "knife"
-												}
-											}
-										}
-									}
-								]
-							}
+							"name": "teaser"
 						}
 					}
 				]

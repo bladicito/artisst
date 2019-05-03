@@ -17,6 +17,7 @@ import './patterns/atoms/bubble';
 import './patterns/molecules/grid';
 import './patterns/molecules/link';
 import './patterns/molecules/list';
+import './patterns/molecules/teaser';
 import './patterns/atoms/blockquote';
 import './patterns/atoms/subtitle';
 import './patterns/molecules/menu';

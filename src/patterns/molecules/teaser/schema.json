@@ -1,0 +1,9 @@
+{
+	"$schema": "http://json-schema.org/draft-04/schema#",
+	"title": "teaser",
+	"description": "A teaser molecule",
+	"type": "object",
+	"properties": {},
+	"required": ["modifier"],
+	"dependencies": {}
+}

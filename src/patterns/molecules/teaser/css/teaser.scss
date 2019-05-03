@@ -1,0 +1,18 @@
+@import '../../../../shared/utils/breakpoints/breakpoints';
+@import '../../../../shared/utils/typography/typography';
+@import '../../../../shared/utils/00_variables-colors';
+
+.m-teaser {
+
+	color: $color-white;
+
+	&__image {
+		overflow: hidden;
+		max-height: 300px;
+	}
+
+	&__content {
+		background-color: $color-gray-2;
+		padding: 12px;
+	}
+}
